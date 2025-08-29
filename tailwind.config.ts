@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
+				'serif': ['Playfair Display', 'serif'],
+				'script': ['Dancing Script', 'cursive'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +56,13 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				romantic: {
+					pink: 'hsl(var(--romantic-pink))',
+					rose: 'hsl(var(--romantic-rose))',
+					gold: 'hsl(var(--romantic-gold))',
+					cream: 'hsl(var(--romantic-cream))',
+					blush: 'hsl(var(--romantic-blush))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
